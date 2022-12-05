@@ -1,0 +1,175 @@
+html {
+   font-family: 'Montserrat', sans-serif;
+}
+
+body {
+   /*selector de etiqueta, ara marc exterior */
+   margin: auto;
+   font-family: 'Nunito', 'Open Sans';
+   background-color: #2a4964;
+}
+
+header {
+   /*selector de etiqueta*/
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   padding-top: 0.10em;
+}
+
+#menu p {
+   text-align: center;
+   margin: 0;
+   padding: 0 0 0.5em 0;
+}
+
+/*selector de id = menu*/
+
+.btn_menu {
+   /*aplicado a la clase btn_menu; boto eliminar*/
+   transition: box-shadow 0.2s ease;
+   margin-left: 1em;
+   padding-left: 1em;
+   padding-right: 1em;
+   min-width: 10em;
+   height: 2.5em;
+   font-family: sans-serif;
+   font-size: 85%;
+   background-color: #fff;
+   color: red;
+   cursor: pointer;
+   border: solid 2px;
+   border-radius: 3px;
+}
+
+.btn_menu:hover {
+   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, .3);
+}
+
+.btn_custom {
+   /*aplicado a la clase btn_dani, tots els botons*/
+   transition: box-shadow 0.2s ease;
+   margin-left: 1em;
+   padding-left: 1em;
+   padding-right: 1em;
+   min-width: 10em;
+   height: 2.5em;
+   font-family: sans-serif;
+   font-size: 85%;
+   background-color: #fff;
+   color: #2a4964;
+   cursor: pointer;
+   border: solid 2px;
+   border-radius: 3px;
+   
+}
+
+.btn_custom:hover {
+   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, .3);
+}
+
+
+h1 {
+   /*selector de etiqueta, es el TEMA(definit al js carrousel)*/
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   text-shadow: 3px 5px 5px grey;
+   font-weight: normal;
+   margin-bottom: 0px;
+   color: black;
+}
+
+h2 {
+   color: deeppink;
+}
+
+/*selector de etiqueta. de momento no se usa*/
+
+.izq {
+   text-align: left !important;
+}
+
+/*aplicado a la clase izq; de momento no se usa*/
+
+
+ul {
+   list-style-type: circle;
+}
+
+/*aplicado a la etiqueta ul, de momento no se usa*/
+li {
+   margin-bottom: .5em;
+}
+
+/*aplicado a la etiquet li, de momento no se usa*/
+
+.repro {
+   cursor: pointer;
+   background: none;
+   padding: 0px;
+   margin-left: 2em;
+   border: 0px;
+}
+
+/*aplicado a la clase repro; ¿pensado para reproductor.js? de momento no se usa*/
+
+#container {
+   /*selector de id = container; ahora botones e imagenes se encuentran dentro de este div*/
+   width: 90%;
+   margin: auto;
+   margin-top: 2em;
+   background-color: lightskyblue;
+   border-radius: 10px;
+   padding-bottom: 0.5em;
+}
+
+#container p,
+h1 {
+   /*selector de p i h1 dentro de id = container  */
+   text-align: center;
+}
+
+#imagen {
+   /*selector de id = imagen */
+   width: 600px;
+   height: 400px;
+   border: 1px solid #2a4964;
+   border-width: 5px;
+   border-radius: 4px;
+}
+
+#nombreImagen {
+   /*selector de id = nombreImagen; ara el nom de la ciutat (Amsterdam)*/
+   display: inline-block;
+   width: 20em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 130%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#titul {
+   /* selector id = titul , ara Capital de ...*/
+   font-size: 110%;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+#desc {
+   font-size: 120%;
+   font-family: sans-serif;
+   font-style: italic;
+
+}
+
+
+input[type=button] {
+   cursor: pointer;
+}
+
+#map {
+   height: 300px;
+   width: auto;
+   
+}

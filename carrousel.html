@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrousel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <link href="./css/estilos.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="container">
+        <p id="map"></p>
+        <h1 id="tema"></h1>
+
+
+        <p><img id="imagen" title='' alt='' src="./img/amsterdam.jpg"></p>
+        <p> <input id="retroceder" class="btn_custom" type="button" onclick="retroceder()" value="Retrocedir" />
+            <span id="nombreImagen"></span>
+            <input id="avanzar" class="btn_custom" type="button" onclick="avanzar()" value="Avançar" />
+            
+        </p>
+        <p id="titul"></p>
+        <p id="desc"></p>
+        <p> <input class="btn_custom" type="button" onclick="play()" value="Play" />
+            <input class="btn_custom" type="button" onclick="stop()" value="Stop" />
+
+        <p> <input class="btn_custom" type="button" onclick="encontrarImagen()" value="Buscar imatge" />
+        <p> <input class="btn_custom" type="button" onclick="agregar()" value="Afegir imatge" />
+        <p> <input class="btn_custom" type="button" onclick="modificar()" value="Modificar imatge" />
+        <p> <input class="btn_menu" type="button" onclick="eliminar()" value="Eliminar imatge" />
+        
+    </div>
+
+
+    <script src="./js/imagenes.js"></script>
+    <script src="./js/carrousel.js"></script>
+    <script src="./js/reproductor.js"></script>
+    <script src="./js/buscar.js"></script>
+    <script src="./js/agregar.js"></script>
+    <script src="./js/eliminar.js"></script>
+    <script src="./js/modificar.js"></script>
+
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <script src="./js/mapa.js"></script>
+
+</body>
+
+</html>
